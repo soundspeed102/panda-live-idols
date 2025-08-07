@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Panda Live Idols</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #00113d;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 24px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    img {
+      width: 28px;
+      height: 28px;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="openLinks()">
+    <img src="logo.png" alt="Panda Logo" />
+    Panda Live Idols
+  </button>
+
+  <script>
+    function openLinks() {
+      const a = document.createElement('a');
+      a.href = "https://s.shopee.vn/30dchvC74f";
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      document.body.appendChild(a);
+      a.click();
+
+      const b = document.createElement('a');
+      b.href = "https://www.pandalive.co.kr/live";
+      b.target = "_blank";
+      b.rel = "noopener noreferrer";
+      document.body.appendChild(b);
+      b.click();
+    }
+  </script>
+</body>
+</html>
