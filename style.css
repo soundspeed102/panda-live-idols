@@ -1,0 +1,37 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: url('panda_affiliate_visual_final.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.logo-box {
+  text-align: center;
+  background: white;
+  border: 4px solid black;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+.logo-box img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
